@@ -5,11 +5,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=luizhc06&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-###
-
-<img align="right" height="150" src="https://tenor.com/ciH2GRhcI5Q.gif"  />
-
-###
+<img align="right" height="150" src="https://media1.tenor.com/m/GOabrbLMl4AAAAAd/plink-cat-plink.gif"  />
 
 <div style="text-align: center;">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="30" alt="c++ logo"  />
