@@ -28,8 +28,6 @@
 </div>
 
 <h3 style="text-align: center;">Redes Sociais:</h3>  <div>
-  <a href="https://www.instagram.com/apagaluiz/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="35" alt="instagram logo" />
   </a>
   <a href="https://discord.com/users/717316916431028235">  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" height="35" alt="discord logo" />
   </a>
