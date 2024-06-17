@@ -23,7 +23,8 @@
 <div style="text-align: center;">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original.svg" height="30" alt="windows" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/archlinux/archlinux-original.svg" height="30" alt="arch logo" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" height="30" alt="arch logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fedora/fedora-original.svg" height="30" alt="fedora logo" />  
+  
 </div>
 
 <h3 style="text-align: center;">Redes Sociais:</h3>  <div>
