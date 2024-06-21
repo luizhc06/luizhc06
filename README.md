@@ -20,18 +20,10 @@
 
 <h3 style="text-align: center;">Redes Sociais:</h3>  <div>
   </a>
-  <a href="https://discord.com/users/717316916431028235">  <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" height="35" alt="discord logo" />
-  </a>
-  <a href="https://leetcode.com/u/rizuw/">
-    <img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black" height="35" alt="leet code logo" />
-  </a>
   <a href="mailto:luizhcastro06@gmail.com">  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35" alt="gmail logo" />
   </a>
   <a href="https://www.linkedin.com/in/luiz-henrique-2206592a7/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="linkedin logo" />
-  </a>
-  <a href="https://steamcommunity.com/id/rizuw/">
-    <img src="https://img.shields.io/badge/Steam-000000?style=for-the-badge&logo=steam&logoColor=white" height="35" alt="steam logo" />
   </a>
 </div>
 
