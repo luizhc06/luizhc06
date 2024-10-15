@@ -1,5 +1,5 @@
 <h2 style="text-align: center;">Olá, Boas-vindas ao meu GitHub! ‍️</h2>
-<p style="text-align: center;"><em>Engenheiro de Software durante o dia, músico e gamer nas horas vagas.</em></p>
+<p style="text-align: center;"><em>Eng. Software | T.I | Hardware Enthusiast </em></p>
 
 <div style="text-align: center;">
   <img src="https://github-readme-stats.vercel.app/api?username=luizhc06&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph" />
