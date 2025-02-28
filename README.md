@@ -12,11 +12,11 @@
 
 ### 📌 Linguagens de Programação
 <div style="text-align: center;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" height="40" alt="C Logo">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="Python" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" height="40" alt="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" height="40" alt="Unity" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" />
@@ -33,11 +33,11 @@
   <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
   <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch" />
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
+  <img src="https://img.shields.io/badge/Mint-87CF3E?style=for-the-badge&logo=linux-mint&logoColor=white" alt="Mint" />
   <img src="https://img.shields.io/badge/Xubuntu-0078C8?style=for-the-badge&logo=xubuntu&logoColor=white" alt="Xubuntu" />
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Kali Linux" />
   <img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora" />
   <img src="https://img.shields.io/badge/EndeavourOS-7C1F8E?style=for-the-badge&logo=endeavouros&logoColor=white" alt="EndeavourOS" />
-  <img src="https://img.shields.io/badge/Mint-87CF3E?style=for-the-badge&logo=linux-mint&logoColor=white" alt="Mint" />
 </div>
 
 ### 🛠️ Ferramentas & Softwares
@@ -50,9 +50,9 @@
 </div>
 
 <p style="text-align: center;">
-  <strong>Desenvolvimento & Gestão:</strong> Visual Studio, Notion, Google Admin<br>
-  <strong>Monitoramento & Redes:</strong> Zabbix, Grafana, Ubiquiti UniFi, Aruba Networks<br>
-  <strong>Infraestrutura & Virtualização:</strong> Open Media Vault, VMware/VirtualBox, pfSense, Fortinet/FortiGate<br>
-  <strong>Telefonia & HelpDesk:</strong> Issabel, GLPI, MicroSIP<br>
-  <strong>Segurança & VPN:</strong> OpenVPN
+  <strong>Desenvolvimento & Gestão:</strong> Visual Studio, Notion, Google Admin.<br>
+  <strong>Monitoramento & Redes:</strong> Zabbix, Grafana, Ubiquiti UniFi, Aruba Networks.<br>
+  <strong>Infraestrutura & Virtualização:</strong> Open Media Vault, VMware/VirtualBox, Proxmox. <br>
+  <strong>Telefonia & HelpDesk:</strong> Issabel, MicroSIP, GLPI. <br>
+  <strong>Segurança & VPN:</strong> OpenVPN, Bitdefender, pfSense, Fortinet/FortiGate.
 </p>
