@@ -60,5 +60,5 @@
 ---
 
 <div align="center">
-  <img src="https://github.com/LUIZHC06/LUIZHC06/blob/output/dist/snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/LUIZHC06/LUIZHC06/output/dist/snake.svg" alt="Snake animation" />
 </div>
