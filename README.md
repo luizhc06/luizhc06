@@ -56,9 +56,3 @@
   <strong>Telefonia & HelpDesk:</strong> Issabel, GLPI, MicroSIP<br>
   <strong>Segurança & VPN:</strong> OpenVPN
 </p>
-
----
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/LUIZHC06/LUIZHC06/output/dist/snake.svg" alt="Snake animation" />
-</div>
