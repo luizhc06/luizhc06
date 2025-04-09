@@ -23,7 +23,7 @@
 ## 📂 Sistemas Operacionais
 <div style="display: flex; align-items: center;">
   <strong>Atualmente:</strong>
-  <img src="https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&logo=manjaro&logoColor=white" alt="Manjaro" />
+  <img src="https://img.shields.io/badge/EndeavourOS-7C1F8E?style=for-the-badge&logo=endeavouros&logoColor=white" alt="EndeavourOS" />
   <img src="https://img.shields.io/badge/Pop!_OS-48B9C7?style=for-the-badge&logo=popos&logoColor=white" alt="Pop!_OS" />
 </div>
   <br>
@@ -35,7 +35,7 @@
   <img src="https://img.shields.io/badge/Mint-87CF3E?style=for-the-badge&logo=linux-mint&logoColor=white" alt="Mint" />
   <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Kali Linux" />
   <img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white" alt="Fedora" />
-  <img src="https://img.shields.io/badge/EndeavourOS-7C1F8E?style=for-the-badge&logo=endeavouros&logoColor=white" alt="EndeavourOS" />
+  <img src="https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&logo=manjaro&logoColor=white" alt="Manjaro" />
 </div>
 
 ## 🛠️ Ferramentas & Softwares
