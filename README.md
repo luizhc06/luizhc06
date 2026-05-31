@@ -1,15 +1,6 @@
 <h1 align="center">Luiz Henrique</h1>
 <h3 align="center"> T.I | Hardware Enthusiast</h3>
 
-<p align="center">
-  <a href="https://github.com/luizhc06">
-    <img src="https://github-readme-stats.vercel.app/api?username=luizhc06&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=blue_navy&locale=pt-br&hide_border=false" height="150" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/luizhc06">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=luizhc06&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=blue_navy&hide_border=false" height="150" alt="Linguagens mais usadas" />
-  </a>
-</p>
-
 ## /dev/stack
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="Python" title="Python" />
