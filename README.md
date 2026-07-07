@@ -1,43 +1,96 @@
 <h1 align="center">Luiz Henrique</h1>
-<h3 align="center"> T.I | Hardware Enthusiast</h3>
+<h3 align="center">T.I. | Infraestrutura & Redes</h3>
 
-## /dev/stack
+<br>
+
+## ❦ /dev/stack
+
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="Python" title="Python" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" title="JavaScript" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML5" title="HTML5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS3" title="CSS3" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" height="40" alt="C" title="C" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++" title="C++" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40" alt="C#" title="C#" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" height="40" alt="Java" title="Java" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" height="40" alt="MySQL" title="MySQL" />
+  <img src="https://img.shields.io/badge/PHP-12071f?style=for-the-badge&logo=php&logoColor=C77DFF" alt="PHP" />
+  <img src="https://img.shields.io/badge/Dart-12071f?style=for-the-badge&logo=dart&logoColor=0175C2" alt="Dart" />
+  <img src="https://img.shields.io/badge/MySQL-12071f?style=for-the-badge&logo=mysql&logoColor=C77DFF" alt="MySQL" />
 </div>
 
-## /etc/infra_tools
-- **Desenvolvimento & Gestão:** Visual Studio, GitHub, Notion, Google Admin.
-- **Monitoramento & Redes:** Zabbix, Grafana, Ubiquiti UniFi, Aruba Networks.
-- **Infraestrutura & Virtualização:** Open Media Vault, VMware/VirtualBox, Proxmox.
-- **Telefonia & HelpDesk:** Issabel, MicroSIP, GLPI.
-- **Segurança & VPN:** OpenVPN, Bitdefender, pfSense, Fortinet/FortiGate.
+<br>
 
-## /sys/os
+## ❦ /etc/infra_tools
+
+**Desenvolvimento & Gestão**
+<div align="left">
+  <img src="https://img.shields.io/badge/Visual_Studio-12071f?style=for-the-badge&logoColor=C77DFF" alt="Visual Studio" />
+  <img src="https://img.shields.io/badge/GitHub-12071f?style=for-the-badge&logo=github&logoColor=C77DFF" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Notion-12071f?style=for-the-badge&logo=notion&logoColor=C77DFF" alt="Notion" />
+  <img src="https://img.shields.io/badge/Google_Workspace-12071f?style=for-the-badge&logo=google&logoColor=C77DFF" alt="Google Workspace" />
+</div>
+
+**Monitoramento & Redes**
+<div align="left">
+  <img src="https://img.shields.io/badge/Zabbix-12071f?style=for-the-badge&logoColor=C77DFF" alt="Zabbix" />
+  <img src="https://img.shields.io/badge/Grafana-12071f?style=for-the-badge&logo=grafana&logoColor=F46800" alt="Grafana" />
+  <img src="https://img.shields.io/badge/Ubiquiti_UniFi-12071f?style=for-the-badge&logo=ubiquiti&logoColor=0559C9" alt="Ubiquiti UniFi" />
+  <img src="https://img.shields.io/badge/Aruba_Networks-12071f?style=for-the-badge&logoColor=C77DFF" alt="Aruba Networks" />
+</div>
+
+**Infraestrutura & Virtualização**
+<div align="left">
+  <img src="https://img.shields.io/badge/OpenMediaVault-12071f?style=for-the-badge&logo=openmediavault&logoColor=C77DFF" alt="OpenMediaVault" />
+  <img src="https://img.shields.io/badge/VMware-12071f?style=for-the-badge&logo=vmware&logoColor=B0B8C1" alt="VMware" />
+  <img src="https://img.shields.io/badge/VirtualBox-12071f?style=for-the-badge&logo=virtualbox&logoColor=A6C6E9" alt="VirtualBox" />
+  <img src="https://img.shields.io/badge/Proxmox-12071f?style=for-the-badge&logo=proxmox&logoColor=E57000" alt="Proxmox" />
+</div>
+
+**Telefonia & HelpDesk**
+<div align="left">
+  <img src="https://img.shields.io/badge/Issabel-12071f?style=for-the-badge&logoColor=C77DFF" alt="Issabel" />
+  <img src="https://img.shields.io/badge/Asterisk-12071f?style=for-the-badge&logo=asterisk&logoColor=D0DE22" alt="Asterisk" />
+  <img src="https://img.shields.io/badge/MicroSIP-12071f?style=for-the-badge&logoColor=C77DFF" alt="MicroSIP" />
+  <img src="https://img.shields.io/badge/GLPI-12071f?style=for-the-badge&logoColor=C77DFF" alt="GLPI" />
+</div>
+
+**Segurança & VPN**
+<div align="left">
+  <img src="https://img.shields.io/badge/OpenVPN-12071f?style=for-the-badge&logo=openvpn&logoColor=EA7E20" alt="OpenVPN" />
+  <img src="https://img.shields.io/badge/Bitdefender-12071f?style=for-the-badge&logo=bitdefender&logoColor=ED1C24" alt="Bitdefender" />
+  <img src="https://img.shields.io/badge/pfSense-12071f?style=for-the-badge&logo=pfsense&logoColor=CE2029" alt="pfSense" />
+  <img src="https://img.shields.io/badge/Fortinet-12071f?style=for-the-badge&logo=fortinet&logoColor=EE3124" alt="Fortinet/FortiGate" />
+</div>
+
+## ❦ /sys/os
 
 **[~]$ Uso_Diario:**
 <br>
 <div align="left">
-  <img src="https://img.shields.io/badge/Garuda_Linux-33a8ff?style=for-the-badge&logo=linux&logoColor=white" alt="Garuda Linux" />
-  <img src="https://img.shields.io/badge/Windows_10-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows 10" />
+  <img src="https://img.shields.io/badge/Garuda_Linux-12071f?style=for-the-badge&logo=linux&logoColor=C77DFF" alt="Garuda Linux" />
+  <img src="https://img.shields.io/badge/Windows_11-12071f?style=for-the-badge&logo=windows11&logoColor=C77DFF" alt="Windows 11" />
 </div>
 <br>
 
 **[~]$ Experiencia_Labs:**
 <br>
 <div align="left">
-  <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
-  <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/Mint-87CF3E?style=for-the-badge&logo=linux-mint&logoColor=white" alt="Mint" />
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white" alt="Kali Linux" />
-  <img src="https://img.shields.io/badge/Manjaro-35BF5C?style=for-the-badge&logo=manjaro&logoColor=white" alt="Manjaro" />
+  <img src="https://img.shields.io/badge/Debian-12071f?style=for-the-badge&logo=debian&logoColor=C77DFF" alt="Debian" />
+  <img src="https://img.shields.io/badge/Arch_Linux-12071f?style=for-the-badge&logo=arch-linux&logoColor=C77DFF" alt="Arch" />
+  <img src="https://img.shields.io/badge/Ubuntu-12071f?style=for-the-badge&logo=ubuntu&logoColor=C77DFF" alt="Ubuntu" />
+  <img src="https://img.shields.io/badge/Mint-12071f?style=for-the-badge&logo=linux-mint&logoColor=C77DFF" alt="Mint" />
+  <img src="https://img.shields.io/badge/Kali_Linux-12071f?style=for-the-badge&logo=kali-linux&logoColor=C77DFF" alt="Kali Linux" />
+  <img src="https://img.shields.io/badge/Manjaro-12071f?style=for-the-badge&logo=manjaro&logoColor=C77DFF" alt="Manjaro" />
+</div>
+
+<br>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0221,50:7B2CBF,100:0d0221&height=3&width=800" />
+</div>
+
+<br>
+
+## ❦ /var/stats
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=luizhc06&show_icons=true&hide_border=true&bg_color=00000000&title_color=9D4EDD&icon_color=9D4EDD&text_color=848492&ring_color=9D4EDD" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=luizhc06&layout=compact&hide_border=true&bg_color=00000000&title_color=9D4EDD&text_color=848492&langs_count=8" alt="Top Languages" />
+</div>
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0221,50:7B2CBF,100:0d0221&height=3&width=800" />
 </div>
