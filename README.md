@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Exo+2&weight=800&italic=1&size=48&duration=3000&pause=2000&color=F1F0FF&background=00000000&center=true&vCenter=true&width=500&height=90&lines=Luiz+%22Rizu%22" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=Exo+2&weight=800&italic=1&size=48&duration=3000&pause=2000&color=3A0C5C&background=00000000&center=true&vCenter=true&width=500&height=90&lines=Luiz+%22Rizu%22" />
-  <img src="https://readme-typing-svg.demolab.com/?font=Exo+2&weight=800&italic=1&size=48&duration=3000&pause=2000&color=3A0C5C&background=00000000&center=true&vCenter=true&width=500&height=90&lines=Luiz+%22Rizu%22" alt="Luiz &quot;Rizu&quot;" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Exo+2&weight=800&italic=1&size=30&duration=3000&pause=2000&color=F1F0FF&background=00000000&center=true&vCenter=true&width=340&height=55&lines=Luiz+%22Rizu%22" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=Exo+2&weight=800&italic=1&size=30&duration=3000&pause=2000&color=3A0C5C&background=00000000&center=true&vCenter=true&width=340&height=55&lines=Luiz+%22Rizu%22" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Exo+2&weight=800&italic=1&size=30&duration=3000&pause=2000&color=3A0C5C&background=00000000&center=true&vCenter=true&width=340&height=55&lines=Luiz+%22Rizu%22" alt="Luiz &quot;Rizu&quot;" />
 </picture>
 
 </div>
