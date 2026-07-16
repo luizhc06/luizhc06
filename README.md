@@ -6,22 +6,15 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Exo+2&weight=800&italic=1&size=30&duration=3000&pause=2000&color=3A0C5C&background=00000000&center=true&vCenter=true&width=340&height=55&lines=Luiz+%22Rizu%22" alt="Luiz &quot;Rizu&quot;" />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=Rajdhani&weight=600&italic=1&size=17&duration=1&pause=100000&color=A7A7B5&background=00000000&center=true&vCenter=true&width=500&height=30&lines=Log%C3%ADstica+de+dia%2C+vibe+coding+com+IA+nas+horas+vagas" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=Rajdhani&weight=600&italic=1&size=17&duration=1&pause=100000&color=5A189A&background=00000000&center=true&vCenter=true&width=500&height=30&lines=Log%C3%ADstica+de+dia%2C+vibe+coding+com+IA+nas+horas+vagas" />
+  <img alt="Logística de dia, vibe coding com IA nas horas vagas" src="https://readme-typing-svg.demolab.com/?font=Rajdhani&weight=600&italic=1&size=17&duration=1&pause=100000&color=5A189A&background=00000000&center=true&vCenter=true&width=500&height=30&lines=Log%C3%ADstica+de+dia%2C+vibe+coding+com+IA+nas+horas+vagas" />
+</picture>
+
 </div>
 
 <br>
-
-## ❦ /dev/stack
-
-<div align="center">
-  <img src="https://img.shields.io/badge/PHP-12071f?style=for-the-badge&logo=php&logoColor=C77DFF" alt="PHP" />
-  <img src="https://img.shields.io/badge/Laravel-12071f?style=for-the-badge&logo=laravel&logoColor=FF2D20" alt="Laravel" />
-  <img src="https://img.shields.io/badge/Dart-12071f?style=for-the-badge&logo=dart&logoColor=0175C2" alt="Dart" />
-  <img src="https://img.shields.io/badge/HTML5-12071f?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/JavaScript-12071f?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/CSS3-12071f?style=for-the-badge&logo=css&logoColor=C77DFF" alt="CSS3" />
-  <img src="https://img.shields.io/badge/Python-12071f?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-  <img src="https://img.shields.io/badge/MySQL-12071f?style=for-the-badge&logo=mysql&logoColor=C77DFF" alt="MySQL" />
-</div>
 
 <br>
 
