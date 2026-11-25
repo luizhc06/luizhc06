@@ -228,7 +228,7 @@ def projeto(chave, nome, linhas, onde):
 
 
 # (nome, arquivo em scripts/icones, cor da marca). Issabel e MicroSIP não têm logo aberto: ícone genérico.
-# Fontes: simple-icons (CC0), selfh.st/icons (CC BY 4.0: zabbix, glpi, aruba) e tabler (MIT: issabel, microsip).
+# Fontes: simple-icons (CC0), selfh.st/icons (CC BY 4.0: zabbix, glpi, aruba) e tabler (MIT: issabel, microsip) e noctalia-shell (noctalia).
 STACK = [
     ("Desenvolvimento e gestão", [("Visual Studio", "visualstudio", "#b184f5"), ("GitHub", "github", "#fff"),
                                   ("Notion", "notion", "#fff"), ("Workspace", "google", "#4c8df6")]),
@@ -240,7 +240,8 @@ STACK = [
                               ("MicroSIP", "microsip", "#7df9ff"), ("GLPI", "glpi", "")]),
     ("Segurança e VPN", [("OpenVPN", "openvpn", "#ea7e20"), ("Bitdefender", "bitdefender", "#ed1c24"),
                          ("pfSense", "pfsense", "#8a9bff"), ("Fortinet", "fortinet", "#ee3124")]),
-    ("Uso todo dia", [("Garuda", "garudalinux", "#c77dff"), ("Windows 11", "windows11", "#3fa9f5")]),
+    ("Uso todo dia", [("CachyOS", "cachyos", "#00d1b2"), ("Niri", "niri", "#e88fd0"), ("Noctalia", "noctalia", ""),
+                      ("Windows 11", "windows11", "#3fa9f5")]),
     ("Já passei por", [("Debian", "debian", "#e0386e"), ("Arch", "archlinux", "#1793d1"), ("Ubuntu", "ubuntu", "#e95420"),
                        ("Mint", "linuxmint", "#86be43"), ("Kali", "kalilinux", "#5c9dff"), ("Manjaro", "manjaro", "#35bfa4")]),
 ]
