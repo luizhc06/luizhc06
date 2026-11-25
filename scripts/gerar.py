@@ -224,6 +224,18 @@ def projeto(chave, nome, linha, onde, w=410, sufixo=""):
     svg(f"projeto-{chave}{sufixo}", w, h, f"{nome}: {linha}", defs, corpo)
 
 
+def projeto_celular(chave, nome, linha, onde, w=205):
+    """Versão do celular: só desenho e nome, para caber em duas colunas."""
+    h = 58
+    defs = (folha_defs(w) + grad("risco", [(0, "#7df9ff"), (45, "#b895ff"), (75, "#ff8ad8"), (100, "#fff3a6")], 1, 1)
+            + grad("prata", PRATA) + f'<clipPath id="q"><rect x="3" y="1" width="{w - 6}" height="{h - 2}" rx="16"/></clipPath>')
+    corpo = (f'<g clip-path="url(#q)">{corre(w, h, 10)}</g>'
+             f'<rect x="4.5" y="2.5" width="{w - 9}" height="{h - 5}" rx="14.5" fill="#0d0920"/>'
+             f'<g transform="translate(36 29) scale(.27)">{EMBLEMAS[chave]}</g>'
+             f'<path d="{letras(nome, DISPLAY, 62, 34.5, 16)}" fill="url(#prata)"/>')
+    svg(f"projeto-{chave}-celular", w, h, f"{nome}: {linha}", defs, corpo)
+
+
 # (nome, arquivo em scripts/icones, cor da marca). Issabel e MicroSIP não têm logo aberto: ícone genérico.
 # Fontes: simple-icons (CC0), selfh.st/icons (CC BY 4.0: zabbix, glpi, aruba) e tabler (MIT: issabel, microsip) e noctalia-shell (noctalia).
 STACK = [
@@ -287,7 +299,9 @@ if __name__ == "__main__":
     titulo("titulo-stack", "Com o que eu trabalho")
     titulo("titulo-commits", "Commits no horizonte")
     for p in PROJETOS:
-        projeto(*p)
+        if p is not PROJETOS[0]:  # o primeiro usa a versão larga
+            projeto(*p)
+        projeto_celular(*p, w=410 if p is PROJETOS[0] else 205)
     projeto(*PROJETOS[0], w=820, sufixo="-largo")  # sete projetos: o primeiro fecha a grade
     stack()
     rodape()
