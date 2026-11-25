@@ -194,7 +194,6 @@ EMBLEMAS = {
     "torque": f'<g class="gira" style="animation-duration:24s"><circle r="48" {L}/><circle r="17" {L}/>'
               + "".join(f'<path d="M0 -50V-66" transform="rotate({a})" stroke="#b895ff" stroke-width="16" stroke-linecap="round"/>' for a in range(0, 360, 45)) + "</g>",
     "rizu": f'<g class="gira" style="animation-duration:8s"><circle r="66" fill="#0d0920" stroke="url(#risco)" stroke-width="5"/><path d="M-46 0A46 46 0 0 1 0 -46M46 0A46 46 0 0 1 0 46" {L} stroke-opacity=".6"/><circle r="20" fill="#ff8ad8"/><circle r="5" fill="#06040f"/></g>',
-    "boboya": f'<path d="M0 -66L18 -22L66 -18L30 14L42 62L0 36L-42 62L-30 14L-66 -18L-18 -22Z" {L}/><circle cx="-13" cy="2" r="6" fill="#7df9ff"/><circle cx="13" cy="2" r="6" fill="#7df9ff"/><path d="M-9 17Q0 25 9 17" {L.replace("7", "5", 1)}/>',
     "solenne": f'<path d="M-62 -46H62Q68 -46 68 -38V28Q68 36 60 36H-8L-36 62V36H-60Q-68 36 -68 28V-38Q-68 -46 -62 -46Z" {L}/>'
                + "".join(estrela(x, -5, 13, c, i) for i, (x, c) in enumerate([(-32, "#7df9ff"), (0, "#ff8ad8"), (32, "#fff3a6")])),
     "quorum": f'<circle cx="0" cy="-26" r="38" {L}/><circle cx="-28" cy="22" r="38" {L}/><circle cx="28" cy="22" r="38" {L}/>',
@@ -205,7 +204,6 @@ PROJETOS = [
     ("orbyta", "Orbyta", ["ERP em que cada área da", "operação é um planeta."], "orbyta.insurge.space"),
     ("torque", "Torque", ["Ordem de serviço para", "oficina e serralheria."], "insurge.space/torque"),
     ("rizu", "Rizu", ["Meu site: buraco negro,", "discos, animes e rádio."], "rizu.insurge.space"),
-    ("boboya", "BOBOYA", ["Loja de merch de anime", "em estética Y2K."], "boboya.insurge.space"),
     ("solenne", "Solenne", ["Minha IA pessoal,", "morando no Discord."], "luizhc06/Solenne"),
     ("quorum", "Quorum", ["Conselho de IAs que", "revisa software."], "luizhc06/Quorum"),
     ("ghostframe", "ghostframe", ["Geração de frames para", "VR em streaming, em alpha."], "luizhc06/ghostframeVR"),

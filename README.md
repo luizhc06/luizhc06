@@ -9,7 +9,6 @@
   <a href="https://orbyta.insurge.space"><img src="assets/projeto-orbyta.svg" width="400" alt="Orbyta: ERP em que cada área da operação é um planeta." /></a>
   <a href="https://insurge.space/torque/"><img src="assets/projeto-torque.svg" width="400" alt="Torque: Ordem de serviço para oficina e serralheria." /></a>
   <a href="https://rizu.insurge.space"><img src="assets/projeto-rizu.svg" width="400" alt="Rizu: Meu site: buraco negro, discos, animes e rádio." /></a>
-  <a href="https://boboya.insurge.space"><img src="assets/projeto-boboya.svg" width="400" alt="BOBOYA: Loja de merch de anime em estética Y2K." /></a>
   <a href="https://github.com/luizhc06/Solenne"><img src="assets/projeto-solenne.svg" width="400" alt="Solenne: Minha IA pessoal, morando no Discord." /></a>
   <a href="https://github.com/luizhc06/Quorum"><img src="assets/projeto-quorum.svg" width="400" alt="Quorum: Conselho de IAs que revisa software." /></a>
   <a href="https://github.com/luizhc06/ghostframeVR"><img src="assets/projeto-ghostframe.svg" width="400" alt="ghostframe: Geração de frames para VR em streaming, em alpha." /></a>
