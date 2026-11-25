@@ -243,7 +243,7 @@ STACK = [
                                   ("Obsidian", "obsidian", "#a882ff"), ("Workspace", "google", "#4c8df6")]),
     ("Monitoramento e redes", [("Zabbix", "zabbix", ""), ("Grafana", "grafana", "#f46800"),
                                ("UniFi", "ubiquiti", "#3d8bff"), ("Aruba", "aruba", "")]),
-    ("Infra e virtualização", [("OMV", "openmediavault", "#5dacdf"), ("VMware", "vmware", "#9fb4c9"),
+    ("Infra e virtualização", [("OMV", "openmediavault", "#5dacdf"),
                                ("VirtualBox", "virtualbox", "#3f9be0"), ("Proxmox", "proxmox", "#e57000")]),
     ("Telefonia e helpdesk", [("Issabel", "issabel", "#9dffcb"), ("Asterisk", "asterisk", "#f68f1e"),
                               ("MicroSIP", "microsip", "#7df9ff"), ("GLPI", "glpi", "")]),
@@ -276,7 +276,7 @@ def stack():
         passo = (larg - 24) / len(nomes)
         for j, (n, arq, c) in enumerate(nomes):
             cx = 12 + passo * (j + .5)
-            lado = 54 if arq in ("vmware", "aruba", "glpi") else 32  # logos só de letras, baixos e largos
+            lado = 54 if arq in ("aruba", "glpi") else 32  # logos só de letras, baixos e largos
             itens.append(icone(arq, c, cx - lado / 2, 59 - lado / 2, lado)
                          + f'<path d="{letras(n, TEXTO, cx, 95, 13.5, "m")}" fill="#f2eeff"/>')
         itens.append("</g>")
