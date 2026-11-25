@@ -240,7 +240,7 @@ def projeto_celular(chave, nome, linha, onde, w=205):
 # Fontes: simple-icons (CC0), selfh.st/icons (CC BY 4.0: zabbix, glpi, aruba) e tabler (MIT: issabel, microsip) e noctalia-shell (noctalia).
 STACK = [
     ("Desenvolvimento e gestão", [("Visual Studio", "visualstudio", "#b184f5"), ("GitHub", "github", "#fff"),
-                                  ("Notion", "notion", "#fff"), ("Workspace", "google", "#4c8df6")]),
+                                  ("Obsidian", "obsidian", "#a882ff"), ("Workspace", "google", "#4c8df6")]),
     ("Monitoramento e redes", [("Zabbix", "zabbix", ""), ("Grafana", "grafana", "#f46800"),
                                ("UniFi", "ubiquiti", "#3d8bff"), ("Aruba", "aruba", "")]),
     ("Infra e virtualização", [("OMV", "openmediavault", "#5dacdf"), ("VMware", "vmware", "#9fb4c9"),
