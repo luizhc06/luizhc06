@@ -16,7 +16,7 @@
 
 <h3 align="center"><img src="assets/titulo-stack.svg" width="100%" alt="Com o que eu trabalho" /></h3>
 
-<img src="assets/stack.svg" width="100%" alt="Desenvolvimento e gestão: Visual Studio, GitHub, Notion, Google Workspace; Monitoramento e redes: Zabbix, Grafana, Ubiquiti UniFi, Aruba Networks; Infraestrutura e virtualização: OpenMediaVault, VMware, VirtualBox, Proxmox; Telefonia e helpdesk: Issabel, Asterisk, MicroSIP, GLPI; Segurança e VPN: OpenVPN, Bitdefender, pfSense, Fortinet; Uso todo dia: Garuda Linux, Windows 11; Já passei por: Debian, Arch Linux, Ubuntu, Mint, Kali Linux, Manjaro" />
+<img src="assets/stack.svg" width="100%" alt="Desenvolvimento e gestão: Visual Studio, GitHub, Notion, Workspace; Monitoramento e redes: Zabbix, Grafana, UniFi, Aruba; Infra e virtualização: OMV, VMware, VirtualBox, Proxmox; Telefonia e helpdesk: Issabel, Asterisk, MicroSIP, GLPI; Segurança e VPN: OpenVPN, Bitdefender, pfSense, Fortinet; Uso todo dia: CachyOS, Niri, Noctalia, Windows 11; Já passei por: Debian, Arch, Ubuntu, Mint, Kali, Manjaro" />
 
 <h3 align="center"><img src="assets/titulo-commits.svg" width="100%" alt="Commits no horizonte" /></h3>
 

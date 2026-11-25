@@ -5,6 +5,7 @@ O texto vira contorno porque o GitHub não carrega fonte externa dentro de SVG.
 """
 import math
 import random
+import re
 from pathlib import Path
 
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -226,35 +227,52 @@ def projeto(chave, nome, linhas, onde):
     svg(f"projeto-{chave}", w, h, f"{nome}: {' '.join(linhas)}", defs, corpo)
 
 
+# (nome, arquivo em scripts/icones, cor da marca). Issabel e MicroSIP não têm logo aberto: ícone genérico.
+# Fontes: simple-icons (CC0), selfh.st/icons (CC BY 4.0: zabbix, glpi, aruba) e tabler (MIT: issabel, microsip) e noctalia-shell (noctalia).
 STACK = [
-    ("Desenvolvimento e gestão", ["Visual Studio", "GitHub", "Notion", "Google Workspace"]),
-    ("Monitoramento e redes", ["Zabbix", "Grafana", "Ubiquiti UniFi", "Aruba Networks"]),
-    ("Infraestrutura e virtualização", ["OpenMediaVault", "VMware", "VirtualBox", "Proxmox"]),
-    ("Telefonia e helpdesk", ["Issabel", "Asterisk", "MicroSIP", "GLPI"]),
-    ("Segurança e VPN", ["OpenVPN", "Bitdefender", "pfSense", "Fortinet"]),
-    ("Uso todo dia", ["Garuda Linux", "Windows 11"]),
-    ("Já passei por", ["Debian", "Arch Linux", "Ubuntu", "Mint", "Kali Linux", "Manjaro"]),
+    ("Desenvolvimento e gestão", [("Visual Studio", "visualstudio", "#b184f5"), ("GitHub", "github", "#fff"),
+                                  ("Notion", "notion", "#fff"), ("Workspace", "google", "#4c8df6")]),
+    ("Monitoramento e redes", [("Zabbix", "zabbix", ""), ("Grafana", "grafana", "#f46800"),
+                               ("UniFi", "ubiquiti", "#3d8bff"), ("Aruba", "aruba", "")]),
+    ("Infra e virtualização", [("OMV", "openmediavault", "#5dacdf"), ("VMware", "vmware", "#9fb4c9"),
+                               ("VirtualBox", "virtualbox", "#3f9be0"), ("Proxmox", "proxmox", "#e57000")]),
+    ("Telefonia e helpdesk", [("Issabel", "issabel", "#9dffcb"), ("Asterisk", "asterisk", "#f68f1e"),
+                              ("MicroSIP", "microsip", "#7df9ff"), ("GLPI", "glpi", "")]),
+    ("Segurança e VPN", [("OpenVPN", "openvpn", "#ea7e20"), ("Bitdefender", "bitdefender", "#ed1c24"),
+                         ("pfSense", "pfsense", "#8a9bff"), ("Fortinet", "fortinet", "#ee3124")]),
+    ("Uso todo dia", [("CachyOS", "cachyos", "#00d1b2"), ("Niri", "niri", "#e88fd0"), ("Noctalia", "noctalia", ""),
+                      ("Windows 11", "windows11", "#3fa9f5")]),
+    ("Já passei por", [("Debian", "debian", "#e0386e"), ("Arch", "archlinux", "#1793d1"), ("Ubuntu", "ubuntu", "#e95420"),
+                       ("Mint", "linuxmint", "#86be43"), ("Kali", "kalilinux", "#5c9dff"), ("Manjaro", "manjaro", "#35bfa4")]),
 ]
 
 
+def icone(arquivo, cor, x, y, lado):
+    bruto = (RAIZ / "icones" / f"{arquivo}.svg").read_text(encoding="utf-8")
+    caixa = re.search(r'viewBox="([^"]+)"', bruto)[1]
+    miolo = re.sub(r"<title>.*?</title>", "", re.search(r"<svg[^>]*>(.*)</svg>", bruto, re.S)[1])
+    return f'<svg x="{x:.1f}" y="{y:.1f}" width="{lado}" height="{lado}" viewBox="{caixa}" fill="{cor or "none"}" color="{cor or "#fff"}">{miolo}</svg>'
+
+
 def stack():
-    w, y, itens = 840, 56, []
+    """Duas colunas de painéis; o último grupo ocupa a linha inteira."""
+    w, alt, vao, pw = 840, 138, 12, 408
+    itens = []
     for i, (grupo, nomes) in enumerate(STACK):
+        ultimo = i == len(STACK) - 1
+        px, py, larg = (i % 2) * (pw + 2 * vao), (i // 2) * (alt + vao), w if ultimo else pw
         cor = FOLHA[i % 5]
-        itens.append(f'<path d="{letras(grupo, DISPLAY, 36, y, 23)}" fill="{cor}"/>')
-        x, y = 36, y + 22
-        for n in nomes:
-            lw = largura(n, TEXTO, 25) + 40
-            if x + lw > w - 36:
-                x, y = 36, y + 60
-            itens.append(f'<rect x="{x:.0f}" y="{y}" width="{lw:.0f}" height="48" rx="24" fill="#150c33" stroke="{cor}" stroke-opacity=".55" stroke-width="1.5"/>'
-                         f'<path d="{letras(n, TEXTO, x + 20, y + 33, 25)}" fill="#f2eeff"/>')
-            x += lw + 12
-        y += 104
-    h = y - 22
-    svg("stack", w, h, "Ferramentas que eu uso",
-        '<radialGradient id="luz"><stop stop-color="#7224fb" stop-opacity=".4"/><stop offset="1" stop-color="#7224fb" stop-opacity="0"/></radialGradient>',
-        f'<rect width="{w}" height="{h}" rx="26" fill="{FUNDO}"/><ellipse cx="760" cy="{h / 2:.0f}" rx="420" ry="{h * .5:.0f}" fill="url(#luz)" clip-path="inset(0 round 26px)"/>' + "".join(itens))
+        itens.append(f'<g transform="translate({px} {py})"><rect x="1" y="1" width="{larg - 2}" height="{alt - 2}" rx="22" fill="#0d0920" stroke="{cor}" stroke-opacity=".45" stroke-width="1.5"/>'
+                     f'<path d="{letras(grupo, DISPLAY, 22, 34, 17)}" fill="{cor}"/>')
+        passo = (larg - 24) / len(nomes)
+        for j, (n, arq, c) in enumerate(nomes):
+            cx = 12 + passo * (j + .5)
+            lado = 70 if arq in ("vmware", "aruba", "glpi") else 42  # logos só de letras, baixos e largos
+            itens.append(icone(arq, c, cx - lado / 2, 74 - lado / 2, lado)
+                         + f'<path d="{letras(n, TEXTO, cx, 121, 16, "m")}" fill="#f2eeff"/>')
+        itens.append("</g>")
+    h = math.ceil(len(STACK) / 2) * (alt + vao) - vao
+    svg("stack", w, h, "Ferramentas que eu uso", "", "".join(itens))
 
 
 def rodape():
